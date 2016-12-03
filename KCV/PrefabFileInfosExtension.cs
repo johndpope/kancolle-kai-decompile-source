@@ -1,0 +1,135 @@
+using System;
+
+namespace KCV
+{
+	public static class PrefabFileInfosExtension
+	{
+		public static string PrefabPath(this PrefabFileInfos info)
+		{
+			switch (info)
+			{
+			case PrefabFileInfos.PREFAB_FILE_INFOS_ID_ST:
+				return "ObjectPool/UIMainMenu3D";
+			case PrefabFileInfos.PortTopArsenalSelectScene:
+				return "PortTop/ArsenalSelectScene";
+			case PrefabFileInfos.BattleFieldCamera:
+				return "Battle/Camera/BattleFieldCamera";
+			case PrefabFileInfos.BattleFieldDimCamera:
+				return "Battle/Camera/BattleFieldDimCamera";
+			case PrefabFileInfos.ResultShipInfo:
+				return "Battle/UI/UIResultShipInfo";
+			case PrefabFileInfos.ResultEShipInfo:
+				return "Battle/UI/UIResultEShipInfo";
+			case PrefabFileInfos.BattleShipBanner:
+				return "Battle/UI/UIBattleShipBanner";
+			case PrefabFileInfos.BattleShip:
+				return "Battle/UI/BattleShip";
+			case PrefabFileInfos.BattleField:
+				return "Battle/Field/BattleField";
+			case PrefabFileInfos.BattleProdDetectionCutIn:
+				return "Battle/Production/Detection/ProdDetectionCutIn";
+			case PrefabFileInfos.BattleProdDetectionResultCutIn:
+				return "Battle/Production/Detection/ProdDetectionResultCutIn";
+			case PrefabFileInfos.BattleProdDetectionCloud:
+				return "Battle/Production/Detection/ProdDetectionCloud";
+			case PrefabFileInfos.BattleProdAerialCutin:
+				return "Battle/Production/AerialCombat/ProdAerialCutin";
+			case PrefabFileInfos.BattleProdAerialCombatP1:
+				return "Battle/Production/AerialCombat/ProdAerialCombatP1";
+			case PrefabFileInfos.BattleProdAerialCombatP2:
+				return "Battle/Production/AerialCombat/ProdAerialCombatP2";
+			case PrefabFileInfos.BattleProdAerialCombatCutIn:
+				return "Battle/Production/AerialCombat/ProdAerialCombatCutIn";
+			case PrefabFileInfos.BattleProdAerialCombatPhase2:
+				return "Battle/Production/AerialCombat/ProdAerialCombatPhase2";
+			case PrefabFileInfos.BattleProdAerialTorpedo:
+				return "Battle/Production/AerialCombat/Torpedo";
+			case PrefabFileInfos.AerialControlProd:
+				return "Battle/Production/AerialCombat/AerialControlProd";
+			case PrefabFileInfos.BattleProdAerialSecondCutIn:
+				return "Battle/Production/AerialCombatSecond/ProdAerialSecondCutin";
+			case PrefabFileInfos.BattleSupportingShell:
+				return "Battle/Production/SupportingFire/SupportShelling";
+			case PrefabFileInfos.BattleSupportingAerial:
+				return "Battle/Production/SupportingFire/SupportAeriel";
+			case PrefabFileInfos.BattleSupportingTorpedo:
+				return "Battle/Production/SupportingFire/SupportTorpedo";
+			case PrefabFileInfos.BattleProdShellingSlot:
+				return "Battle/Production/Shelling/ProdShellingSlot";
+			case PrefabFileInfos.BattleProdShellingSlotNameNormalAttack:
+				return "Battle/Production/Shelling/ProdShellingSlotNormalAttack";
+			case PrefabFileInfos.BattleProdShellingShipNormalAttack:
+				return "Battle/Production/Shelling/ProdShellingShipNormalAttack";
+			case PrefabFileInfos.BattleProdShipStatusInfo:
+				return "Battle/Production/Shelling/ProdStatusInfo";
+			case PrefabFileInfos.BattleProdAircraftAttack:
+				return "Battle/Production/Shelling/ProdAircraftAttack";
+			case PrefabFileInfos.BattleProdShellingFormationJudge:
+				return "Battle/Production/Shelling/ProdShellingFormationJudge";
+			case PrefabFileInfos.BattleProdObservedShellingCutIn:
+				return "Battle/Production/Shelling/ProdObservedShellingCutIn";
+			case PrefabFileInfos.NightMessageProd:
+				return "Battle/Production/NightCombat/ProdNightMessage";
+			case PrefabFileInfos.BattleProdTranscendenceCutIn:
+				return "Battle/Production/NightCombat/ProdTranscendenceCutIn";
+			case PrefabFileInfos.BattleProdFlagshipWreck:
+				return "Battle/Production/FlagshipWreck/ProdFlagshipWreck";
+			case PrefabFileInfos.BattleFlightText:
+				return "Battle/UI/FlightText";
+			case PrefabFileInfos.BattleProdDamageCutIn:
+				return "Battle/Production/Damage/ProdDamageCutIn";
+			case PrefabFileInfos.BattleProdSinking:
+				return "Battle/Production/Damage/ProdSinking";
+			case PrefabFileInfos.BattleProdWithdrawalDecisionSelection:
+				return "Battle/Production/WithdrawalDecision/ProdWithdrawalDecisionSelection";
+			case PrefabFileInfos.BattleProdBattleFinish:
+				return "Battle/Production/Result/ProdBattleFinish";
+			case PrefabFileInfos.BattleProdWinRankJudge:
+				return "Battle/Production/Result/ProdWinRankJudge";
+			case PrefabFileInfos.BattleResultInformation:
+				return "Battle/UI/BattleInformation";
+			case PrefabFileInfos.BattleUIMvp:
+				return "Battle/UI/UIMVP";
+			case PrefabFileInfos.RewardGet:
+				return "Battle/Production/Result/ProdRewardGet";
+			case PrefabFileInfos.BattleProdEscortShipEvacuation:
+				return "Battle/Production/EscortShipEvacuation/ProdEscortShipEvacuation";
+			case PrefabFileInfos.BattleProdAdvancingWithDrawalSelect:
+				return "Battle/Production/AdvancingWithDrawal/ProdAdvancingWithDrawalSelect";
+			case PrefabFileInfos.BattleProdAdvancingWithDrawalDC:
+				return "Battle/Production/AdvancingWithDrawalDC/ProdAdvancingWithDrawalDC";
+			case PrefabFileInfos.Moderate3DText:
+				return "Battle/Production/Damage/Moderate";
+			case PrefabFileInfos.Heavy3DText:
+				return "Battle/Production/Damage/Heavy";
+			case PrefabFileInfos.UICircleHPGauge:
+				return "Battle/UI/UICircleHPGauge";
+			case PrefabFileInfos.UICircleHPGauges:
+				return "Battle/UI/UICircleHPGaugeS";
+			case PrefabFileInfos.Option:
+				return "Option/Option";
+			case PrefabFileInfos.ShipGet:
+				return "Common/ShipGet";
+			case PrefabFileInfos.MapClear:
+				return "Battle/Production/MapOpen/ProdMapClear";
+			case PrefabFileInfos.Thalassocracy:
+				return "Battle/Production/MapOpen/ProdThalassocracy";
+			case PrefabFileInfos.MapOpen:
+				return "Battle/Production/MapOpen/ProdMapOpen";
+			case PrefabFileInfos.CommonProdReceiveShip:
+				return "Common/ReceiveShip/ProdReceiveShip";
+			case PrefabFileInfos.CommonProdBattleReceiveShip:
+				return "Common/ReceiveShip/ProdBattleReceiveShip";
+			case PrefabFileInfos.CommonProdCutReceiveShip:
+				return "Common/ReceiveShip/ProdCutReceiveShip";
+			case PrefabFileInfos.CommonProdReceiveItem:
+				return "Common/ReceiveItem/ProdReceiveItem";
+			case PrefabFileInfos.CommonProdRevampReceiveItem:
+				return "Common/ReceiveItem/ProdRevampReceiveItem";
+			case PrefabFileInfos.ISUICategoryAreaButton:
+				return "InteriorStore/ISCategoryAreaButton";
+			}
+			return string.Empty;
+		}
+	}
+}
